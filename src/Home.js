@@ -1,9 +1,9 @@
 import { hover } from '@testing-library/user-event/dist/hover.js';
-import ProductList from './ProductList.js'
+import ProductList from './ProductList.js';
 
-let data = [{ name: 'FIRST', lancerName: 'Sandu', id: 1, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34' },
+let data = [{ name: 'FIRST', lancerName: 'Sandu', id: 1, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34', price:20 },
 { name: 'SECOND', lancerName: 'Sandy', id: 2, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34' },
-{ name: 'THIRD', lancerName: 'Basanta', id: 3, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34' }];
+{ name: 'THIRD', lancerName: 'Basanta', id: 3, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34' },{ name: 'THIRD', lancerName: 'Basanta', id: 3, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolor reiciendis iste maxime quia accusamus, magni illum maiores, ipsum repellat nulla dolorem laudantium natus. Iusto optio necessitatibus ducimus tenetur quod officiis eius nemo!', code: 'code34' }];
 
 const Home = () => {
     return (
